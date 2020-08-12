@@ -1,0 +1,134 @@
+* { margin: 0; padding: 0; }
+
+h1,h2,p {
+  color: rgba(255,255,255,0.8);
+}
+
+.background-image {
+  background-image: url("pipoca01.png");
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+.container {
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  max-width: 70%;
+}
+
+.opacity{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.card{
+  width: 45%;
+  height: 40%;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 50px;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between ;
+  text-align: center;
+  border: solid #ffffff 1px;
+}
+
+.card h2{
+  font-size: 50px;
+  text-align: center;
+}
+
+.card p{
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card button{
+  margin-top: 30px;
+  font-size: 25px;
+  padding: 10px 120px;
+  border-radius: 15px;
+  background-color: #481620;
+  color: rgba(255,255,255,0.8);
+  border: solid #ffffff 1px;
+}
+
+.container_galeria{
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  width: 70%;
+  height: 100vh;
+  max-width: 60%;
+  background-color: rgba(0,0,0,0.7);
+  flex-wrap: wrap;
+  align-items: flex-start;
+  
+}
+
+.galery_row{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.galery_row:last-child {
+  margin-top: -150px;
+  padding-top: 0;
+}
+
+
+.polaroid{
+  height: 30vh;
+  width: 25vh;
+  background-color:  rgba(255,255,255,0.9);
+  padding: 10px 10px 0 10px;
+
+}
+
+.polaroid img{
+  display: flex;
+  width: 100%;
+  height: 80%;
+  background-size: contain;
+}
+
+.back_button{
+  margin-top: 30px;
+  font-size: 25px;
+  padding: 10px 120px;
+  border-radius: 15px;
+  background-color: #481620;
+  color: rgba(255,255,255,0.8);
+  border: solid #ffffff 1px;
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 150px);
+}
+
+a:visited {
+  color:rgba(255,255,255,0.8);
+}
+
+a {
+  text-decoration: none;
+}
