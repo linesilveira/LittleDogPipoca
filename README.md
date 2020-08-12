@@ -1,1 +1,1 @@
-<img src="https://images.app.goo.gl/iwZrVUzkhAPwU7Le6" width=80%>
+<img src="https://memegenerator.net/img/images/400x/72523168.jpg" width=80%>
